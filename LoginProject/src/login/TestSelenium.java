@@ -16,7 +16,7 @@ public class TestSelenium {
 
 		WebDriver driver= new ChromeDriver();
 
-		driver.get("http://www.cheyyarkurinjikuganmatrimony.com/index.aspx");
+		driver.get("http://thillaimatri.com/login_public.aspx");
 
 			try {
 
@@ -32,11 +32,11 @@ public class TestSelenium {
 
 				WebElement TextBox = driver.findElement(By.xpath("//*[@id=”login-modal-form”]/div[1]/div/input"));
 
-						TextBox.sendKeys("SM339");
+						TextBox.sendKeys("jgajapathi@gmail.com");
 
 				WebElement Password = driver.findElement(By.xpath("//*[@id=”login-modal-form”]/div[2]/div/input"));
 
-						Password.sendKeys("RAMAN");
+						Password.sendKeys("632317");
 
 				WebElement proceed = driver.findElement(By.xpath("//*[@id=”login-modal-form”]/div[4]/button"));
 
